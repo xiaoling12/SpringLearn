@@ -14,7 +14,7 @@ public class TacoOrder {
     private String deliveryStreet; // 寄送街道
     private String deliveryCity;  // 寄送城市
     private String deliveryState;  // 寄送州
-    private String deliveryZip;
+    private String deliveryZip;  // 递送邮编
     private String ccNumber;  // 支付信息
     private String ccExpiration;
     private String ccCVV;

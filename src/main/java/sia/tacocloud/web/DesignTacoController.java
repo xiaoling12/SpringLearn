@@ -17,9 +17,13 @@ import sia.tacocloud.Ingredient.Type;
 import sia.tacocloud.Taco;
 import sia.tacocloud.TacoOrder;
 
+// Lombok所提供的注解，在编译期，它会在这个类中自动生成一个SLF4J Logger,等效
+// private static final org.slf4j.Logger log = org.slf4j.LoggerFactory.getLogger(DesignTacoController.class);
 @Slf4j
 @Controller
+// 规定DesignTacoController将会处理路径以“/design”开头的请求
 @RequestMapping("/design")
+//
 @SessionAttributes("tacoOrder")
 public class DesignTacoController {
 
